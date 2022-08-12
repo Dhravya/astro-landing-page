@@ -7,8 +7,8 @@ const sizes = "100vw";
 const { webp, avif, jpeg } = generateImage("src/assets/moon.jpg", {
   widths,
   formats: ["webp", "avif", "jpeg"],
-  outputDir: "public/assets/images/hero",
-  urlPath: "/assets/images/hero",
+  outputDir: "public/assets/images/moon",
+  urlPath: "/assets/images/moon",
 });
 
 const avifSrcset = avif.map(({ srcset }) => srcset).join(",");
